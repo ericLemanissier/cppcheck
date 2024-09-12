@@ -1838,7 +1838,7 @@ ValueFlow::Value evaluateLibraryFunction(const std::unordered_map<nonneg int, Va
 {
     thread_local static std::unordered_map<std::string,
                                            std::function<ValueFlow::Value(const std::unordered_map<nonneg int, ValueFlow::Value>&, const Settings&)>>
-    functions = {};
+    functions{};
     if (functions.count(returnValue) == 0) {
 
         std::unordered_map<nonneg int, const Token*> lookupVarId;
