@@ -134,14 +134,14 @@ static const std::unordered_set<std::string> cpp14_keywords_all = {
     CPP03_KEYWORDS, CPP11_KEYWORDS
 };
 
-static const std::unordered_set<std::string> cpp14_keywords = {
+static const std::unordered_set<std::string> cpp14_keywords{
 };
 
 static const std::unordered_set<std::string> cpp17_keywords_all = {
     CPP03_KEYWORDS, CPP11_KEYWORDS
 };
 
-static const std::unordered_set<std::string> cpp17_keywords = {
+static const std::unordered_set<std::string> cpp17_keywords{
 };
 
 static const std::unordered_set<std::string> cpp20_keywords_all = {
@@ -152,14 +152,14 @@ static const std::unordered_set<std::string> cpp20_keywords = {
     CPP20_KEYWORDS
 };
 
-static const std::unordered_set<std::string> cpp23_keywords = {
+static const std::unordered_set<std::string> cpp23_keywords{
 };
 
 static const std::unordered_set<std::string> cpp23_keywords_all = {
     CPP03_KEYWORDS, CPP11_KEYWORDS, CPP20_KEYWORDS
 };
 
-static const std::unordered_set<std::string> cpp26_keywords = {
+static const std::unordered_set<std::string> cpp26_keywords{
 };
 
 static const std::unordered_set<std::string> cpp26_keywords_all = {
