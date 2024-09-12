@@ -66,7 +66,7 @@ static const std::unordered_set<std::string> c17_keywords_all = {
     C90_KEYWORDS, C99_KEYWORDS, C11_KEYWORDS
 };
 
-static const std::unordered_set<std::string> c17_keywords = {
+static const std::unordered_set<std::string> c17_keywords{
 };
 
 static const std::unordered_set<std::string> c23_keywords_all = {
